@@ -1,0 +1,13 @@
+{
+    "require": {
+        "spomky-labs/otphp": "^10.0",
+        "chillerlan/php-qrcode": "^4.3",
+        "symfony/error-handler": "^6.0",
+        "phpmailer/phpmailer": "^6.6",
+        "mpdf/mpdf": "^8.1",
+        "ramsey/uuid": "^4.3",
+        "spatie/menu": "^3.0",
+        "spatie/url": "^2.1",
+        "guzzlehttp/guzzle": "^7.4"
+    }
+}

@@ -1,0 +1,11 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !\.(jpg|png|ico|css|js|webp)$ [NC]
+RewriteRule ^(.+)$ index.php [QSA,L]
+ErrorDocument 500 /static_content/500.html
+ErrorDocument 503 /static_content/500.html
+ErrorDocument 401 /static_content/401.html
+ErrorDocument 403 /static_content/403.html
+ErrorDocument 404 /static_content/404.html
